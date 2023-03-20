@@ -1,0 +1,30 @@
+  .harmonyaccordion-btn{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border:solid 1px #ddd;
+            padding: 15px;
+            background: none;
+            cursor: pointer;
+        transition: all 250ms linear;
+        }
+
+        .harmonyaccordion-btn:hover{
+            background: #fafafa;
+        }
+
+        .harmonyaccordion-btn h5{
+            margin: 0;
+            padding: 0;
+         
+        }
+
+        .harmonyaccordion-content{
+            padding: 15px;
+            border:solid 1px #ddd;
+            display: none;
+        }
+
+        .harmonyaccordion-content.show{
+            display: block;
+        }

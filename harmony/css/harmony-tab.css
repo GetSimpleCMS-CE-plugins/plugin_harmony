@@ -1,0 +1,50 @@
+
+.harmonytab{
+    display: block;
+    margin-top:10px;
+}
+
+.harmonytab-content{
+display: none;
+padding: 10px;
+}
+
+.harmonytab-content.show{
+display: block;
+animation: fadeNow 300ms ease-in-out;
+}   
+
+.harmonytab-list{
+    border-bottom: solid 1px #ddd;
+}
+
+ .harmonytab-btn{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border:solid 1px #ddd;
+    background: none;
+    margin-bottom: -1px;
+    padding: 10px;
+    cursor: pointer;
+    background: #fafafa;
+}
+
+.harmonytab-btn.active{
+    border-bottom: solid 1px #fff;
+    color:#333;
+    background: none;
+}
+
+
+@keyframes fadeNow {
+    
+    from{
+        opacity: 0;
+        
+    }
+
+    to{
+        opacity: 1;
+    }
+
+}
